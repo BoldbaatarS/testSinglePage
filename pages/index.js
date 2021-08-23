@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/*#who Бид хэн бэ ? */}
+
       <section id="who">
         <div className="who-img"></div>
         <div className="who-text bg-dark p-2">
