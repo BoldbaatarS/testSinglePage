@@ -1,0 +1,54 @@
+/* icon  уудын зүн тал руу зэрэгцүүлэх*/
+@media (max-width: 768px) {
+  #what .items {
+    display: block;
+    padding: 1rem;
+  }
+  #what .items .item {
+    display: flex;
+    text-align: left;
+  }
+
+  /*icon ы байршил*/
+  #what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  /*Smart phones*/
+  @media (max-width: 500px) {
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    #navbar .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    #navbar ul {
+      padding: 0.5rem;
+    }
+    #who {
+      display: block;
+    }
+    #who .whi-img {
+      display: none;
+    }
+    #clients .items Image {
+      width: 80%;
+    }
+    #clients .items div:last-child {
+      display: none;
+    }
+    #contact {
+      flex-direction: column;
+    }
+    .m-heading {
+      font-size: 1.5rem;
+    }
+    .py-1 {
+      padding: 1rem 0;
+    }
+  }
+}
